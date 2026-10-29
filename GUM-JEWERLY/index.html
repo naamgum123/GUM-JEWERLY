@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gum Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+   <nav class="navbar">
+    <div class="logo">GUM JEWELRY</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <ul class="nav-links" id="navLinks"><li><a href="index.html" class="current">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="index.html#categories">Collections</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="about.html">About Us</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li class="dropdown"><button class="dropdown-toggle" type="button">More ▾</button><ul class="dropdown-menu"><li><a href="cart.html">Shopping Cart</a></li><li><a href="wishlist.html">Wishlist</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms and Conditions</a></li></ul></li></ul>
+    <div class="nav-icons"><a href="cart.html" title="Shopping Cart">🛒</a></div>
+</nav>
+        <section class="hero">
+
+    <div class="hero-content">
+        <p class="hero-subtitle">TIMELESS ELEGANCE</p>
+
+        <h1>Jewelry That Tells Your Story</h1>
+
+        <p class="hero-text">
+            Discover beautiful jewelry designed to make every moment special.
+        </p>
+
+        <a href="shop.html" class="hero-button">SHOP NOW</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/jewelry.jpg" alt="Beautiful jewelry">
+    </div>
+
+</section>
+             <section class="products">
+    <div class="section-title">
+        <p>OUR COLLECTION</p>
+        <h2>Featured Jewelry</h2>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/gold.jpg" alt="gold">
+            <h3>Classic Gold Necklace/ bracelet and Earrings</h3>
+            <p class="price">150,000 UGX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/necklace.jpg" alt="Necklace">
+            <h3>Elegant Gold Necklace and Ring</h3>
+            <p class="price">180,000 UGX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/stingless.jpg" alt="stingless">
+            <h3>Golden Necklace three in one</h3>
+            <p class="price">150,000 UGX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/golden.jpg" alt="golden">
+            <h3>Luxury Gold Necklace/bracelet and ring</h3>
+            <p class="price">200,000 UGX</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+  </section> 
+  <section class="categories" id="categories">
+
+    <div class="section-title">
+        <p>EXPLORE OUR COLLECTION</p>
+        <h2>Shop by Category</h2>
+    </div>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <img src="categories/finger-ring.jpg" alt="Rings">
+            <div class="category-content">
+                <h3>Rings</h3>
+                <a href="shop.html">SHOP NOW</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="categories/necklace.jpg" alt="Necklaces">
+            <div class="category-content">
+                <h3>Necklaces</h3>
+                <a href="shop.html">SHOP NOW</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="categories/diamond-earing.jpg" alt="Earrings">
+            <div class="category-content">
+                <h3> Diamond Earrings</h3>
+                <a href="shop.html">SHOP NOW</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="categories/bracelets.jpg" alt="Bracelets">
+            <div class="category-content">
+                <h3>Bracelets</h3>
+                <a href="shop.html">SHOP NOW</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="about-section">
+
+    <div class="about-image">
+        <img src="images/men-rings.jpg" alt="GUM Jewelry collection">
+    </div>
+
+    <div class="about-content">
+        <p class="about-subtitle" style="color: #b8860b;">OUR STORY</p>
+
+        <h2>Jewelry Made for Your Special Moments</h2>
+
+        <p>
+            At GUM Jewelry, we believe every piece tells a story.
+            Our collection brings together elegant designs made for
+            everyday moments, celebrations, and memories.
+        </p>
+
+        <p>
+            Explore our carefully selected jewelry and find a piece
+            that matches your style.
+        </p>
+
+        <a href="about.html" class="about-button">LEARN MORE</a>
+    </div>
+
+</section>
+<section class="review-section">
+
+    <div class="section-title">
+        <p>SHARE YOUR EXPERIENCE</p>
+        <h2>Leave a Review</h2>
+    </div>
+
+    <div class="review-container">
+
+        <div class="review-form-box">
+
+            <h3>Tell us what you think</h3>
+
+            <form id="reviewForm">
+
+                <div class="form-group">
+                    <label for="reviewName">Your Name</label>
+                    <input
+                        type="text"
+                        id="reviewName"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewRating">Your Rating</label>
+
+                    <select id="reviewRating" required>
+                        <option value="">Select a rating</option>
+                        <option value="5">★★★★★ 5 Stars</option>
+                        <option value="4">★★★★☆ 4 Stars</option>
+                        <option value="3">★★★☆☆ 3 Stars</option>
+                        <option value="2">★★☆☆☆ 2 Stars</option>
+                        <option value="1">★☆☆☆☆ 1 Star</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewText">Your Review</label>
+
+                    <textarea
+                        id="reviewText"
+                        rows="5"
+                        placeholder="Tell us about your experience..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="review-submit">
+                    SUBMIT REVIEW
+                </button>
+
+                <p id="reviewMessage"></p>
+
+            </form>
+
+        </div>
+
+
+        <div class="reviews-display">
+
+            <h3>Customer Reviews</h3>
+
+            <div id="reviewsList">
+                <p class="no-reviews">
+                    No reviews yet. Be the first to share your experience.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <p>STAY CONNECTED</p>
+
+        <h2>Join the GUM Jewelry Community</h2>
+
+        <span>
+            Subscribe to receive new collection updates, special offers,
+            and jewelry inspiration.
+        </span>
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <button type="submit">SUBSCRIBE</button>
+
+        </form>
+
+        <div id="newsletterMessage"></div>
+
+    </div>
+
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column footer-brand">
+            <h2>GUM JEWELRY</h2>
+            <p>Elegant jewelry designed to make every moment special. Find a piece that tells your story.</p>
+            <div class="social-links"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">TikTok</a></div>
+        </div>
+        <div class="footer-column">
+            <h3>QUICK LINKS</h3>
+            <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="gallery.html">Gallery</a><a href="about.html">About Us</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-column">
+            <h3>HELP</h3>
+            <a href="faq.html">Shipping &amp; Delivery</a><a href="faq.html">Returns &amp; Exchanges</a><a href="faq.html">Size Guide</a><a href="faq.html">FAQs</a>
+        </div>
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <p>Email: gumjewelry@gmail.com</p><p>Phone: +256 786531869</p><p>Location: Kampala, Uganda, IUEA</p>
+        </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 GUM Jewelry. All rights reserved.</p><div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a></div></div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
